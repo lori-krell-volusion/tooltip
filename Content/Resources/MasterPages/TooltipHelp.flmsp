@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="155" MadCap:lastWidth="764">
+    <head>
+    </head>
+    <body>
+        <table style="width: 100%;">
+            <col style="width: 173px;" />
+            <col />
+            <tbody>
+                <tr>
+                    <td>
+                        <h1 class="TooltipHeader">TooltipName</h1>
+                    </td>
+                    <td style="vertical-align: middle;"><code>[DATATYPE: #]</code>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <MadCap:bodyProxy />
+                        <p>
+                            <MadCap:expanding>
+                                <MadCap:expandingHead>+ expand:</MadCap:expandingHead>
+                                <MadCap:expandingBody>&#160;Exact Fieldname in Database: FieldName</MadCap:expandingBody>
+                            </MadCap:expanding>
+                        </p>
+                        <p><b>Example:</b> example value</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

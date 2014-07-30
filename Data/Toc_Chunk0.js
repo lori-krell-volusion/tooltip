@@ -1,0 +1,1 @@
+define({'___':{i:[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17],t:['Getting Started','New Entry','Dashboard','New Entry','Orders','New Entry','Customers','New Entry','Inventory','Create a Product','Marketing','New Entry','Design','New Entry','Reports','New Entry','Settings','New Entry'],b:['','','','','','','','','','','','','','','','','','']}});
