@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta content="" /><title>The Volusion API</title>
+        <style><![CDATA[
+#kb-container
+{
+	margin: 0 auto;
+	font-size: 12px;
+	width: 740px;
+}
+#article
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #996600;
+	font-weight: bold;
+}
+#entry
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #996600;
+	font-weight: bold;
+}
+#maincontainer
+{
+	margin: 10px 0 75px;
+	width: 720px;
+	height: 575px;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 18px;
+	color: #333;
+}
+#maincontainer h1
+{
+	padding-left: 20px;
+}
+#maincontainer h2 em
+{
+	font-style: normal;
+	font-weight: normal;
+}
+#maincontainer a,
+.contentcontainer a
+{
+	color: #06C;
+	text-decoration: none;
+}
+#maincontainer h2,
+.contentcontainer h2
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 21px;
+	color: #333;
+	font-weight: bold;
+}
+.contentcontainer
+{
+	width: 700px;
+	margin: 10px;
+	padding: 0px 0px 0px 20px;
+	border-top: 1px;
+	border-top-color: #06C;
+	border-top-style: solid;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 18px;
+	color: #333;
+}
+.kb-video-thumb-container
+{
+	float: left;
+	margin-right: 50px;
+}
+.kb-video-thumb
+{
+	float: left;
+	clear: both;
+}
+.kb-video-thumb-container.last
+{
+	margin-right: 0;
+}
+a.kb-video-thumb img
+{
+	padding-bottom: 5px;
+	padding-top: 15px;
+}
+span.ui-dialog-title
+{
+	display: none;
+}
+#accordion p
+{
+	color: #960;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+#accordion p
+{
+	margin: 0 0 15px 0;
+	padding: 0;
+}
+#accordion .faq_question a
+{
+	color: #212121;
+}
+#accordion .faq_question
+{
+	font-weight: bold;
+}
+td
+{
+	line-height: 18px;
+	color: #333;
+	vertical-align: top;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+]]></style>
+        <link href="../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../Resources/Stylesheets/bootstrap.css" rel="stylesheet" />
+        <script src="../../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <div id="">
+            <div id=""><a name=""></a>
+                <h1>The Volusion API</h1>
+                <div class="">
+                    <h2>Documentation</h2>
+                    <p>The Volusion API allows you to share your Volusion data with third-party services to extend the capabilities of your store. Using the Volusion API, you can integrate with industry-standard 
+financial software, award-winning order management services, and even create your 
+own custom integrations using XML. </p>
+                    <p>Note that to obtain access to the Volusion API, you must have a Volusion Gold 
+store account or above. If you have a Steel, Bronze, or Silver store account, you 
+can upgrade by logging in to your <a href=""><i>myVolusion Area</i></a>. </p>
+                    <p>There are several features of the Volusion API that you can access on this 
+page. Below, you'll find a description of each section. Click on any available 
+link to view that API section settings and Instant Help article for more 
+information.</p>
+                    <p><span id=""><i>Enable public XML for Featured Products</i></span> <![CDATA[ ]]></p>
+                    <p>This is a special XML export that can be generated using the Volusion API. 
+This will output information for all <i>Featured Products</i> into an XML file 
+once a day. </p>
+                    <p>Select <i>Enable public XML for Featured Products</i> and click <i>Save</i>. This export 
+is performed every 24 hours. You can reset the daily timeout by clicking the <i>Reset</i> button. </p>
+                    <p>To access the featured product export's XML file directly, you can open your 
+web browser to the following URL: </p>
+                    <p><i>http://www.yourdomain.com/net/webservice.aspx?api_name=generic\featured_products</i>
+                    </p>
+                    <p>Be sure to substitute ""www.yourdomain.com"" in the above URL with your store's 
+domain name. </p>
+                    <p><span id=""><i>Enable public XML for All Products</i></span>
+                    </p>
+                    <p>Similar to the <i>Featured Products</i> export, this can be used to generate 
+an XML file that contains information for <i>every</i> product within your 
+Volusion store's database. This export can be used in a variety of ways to share 
+your store's product information with third-party software and services utilizing 
+XML. </p>
+                    <p>Select <i>Enable public XML for All Products</i> and click <i>Save</i>. As with 
+the <i>Featured Products</i> Export, this export is generated once every 24 hour 
+period. You can override this by clicking the <i>Reset</i> button. </p>
+                    <p>To view your store's <i>All Products</i> export, visit the following URL: </p>
+                    <p><i>http://www.yourdomain.com/net/webservice.aspx?api_name=generic\all_products</i>
+                    </p>
+                    <p>Be sure to substitute ""www.yourdomain.com"" in the above URL with your store's 
+domain name. </p>
+                    <p>Note that as this export will contain information for all products within 
+your store, generating it will be resource-intensive if your store has a 
+large number of products. </p>
+                    <p><span id="">Quickbooks Web Connector</span> <![CDATA[ ]]></p>
+                    <p>The Volusion API enables you to integrate your Volusion store with Intuit's 
+QuickBooks software using the QuickBooks Web Connector software. This provides a 
+more robust integration with Volusion than the standard IIF file export. Click 
+on the <i>Manage Quickbooks Web Connector HERE</i> link for more 
+information and begin configuring your store to integrate with Intuit's 
+QuickBooks Web Connector (QBWC). </p>
+                    <p><span id="">Generic</span>
+                    </p>
+                    <p>This section contains three options that allow you to export a list of your 
+Volusion store's orders, products, or customers from your store's database to an 
+XML file. This can be used to integrate your store's data with various third-party 
+services and applications.</p>
+                    <p>Additionally, you can click on the <i>Google Merchant Center Integration</i> link to 
+configure your store to integrate with Google's Google Merchant Center ecommerce marketing 
+service. </p>
+                    <p><span id="">Order Management</span> <![CDATA[ ]]></p>
+                    <p>You can use the exports provided within this section to integrate your online 
+store with Stone Edge Order Manager (SEOM). Stone Edge is a leader in ecommerce 
+and business logistic software, specializing in order fulfillment and management 
+processes. Click any of the three options to create an XML document 
+specially formatted for use with SEOM. </p>
+                    <p>Here you are given the option to export customer, order, and product data 
+from your Volusion store to an XML file for use with Stone Edge's software.</p>
+                    <p><span id="">Shipping</span>
+                    </p>
+                    <p>This section of the Volusion API allows you to create exports which can be used 
+to integrate your online business with shipping services and software from the 
+US Postal Service, Pitney Bowes, and Stamps.com. </p>
+                    <p>The Endicia DAZzle export can be used to generate an XML file containing 
+order information from your online store that can be imported into Endicia's 
+DAZzle shipping label and postage management software. Endicia's software and 
+service is for use with the United States Postal Service. Click the 
+<i>Run</i> button to enter the Endicia page and find out more on how to use this 
+portion of the Volusion API.</p>
+                    <p>The Pitney Bowes export can be used to generate an XML file containing order 
+data which can then be used to integrate your Volusion store with products and 
+services from Pitney Bowes. </p>
+                    <p>The Stamps.com export can be used to generate an XML file containing order 
+data which can then be used to integrate your Volusion store with products and 
+services from Stamps.com. </p>
+                    <p><span id="">Need Additional Help?</span>
+                    </p>
+                    <p>For more information regarding importing and exporting data using the 
+Volusion API, incluing information for advanced XML integration, please visit 
+the following link: <span class=""><a href="">Volusion API Integration 
+Help</a><p><a href=""><img border="" src="" /></a></p></span></p>
+                </div>
+            </div>
+        </div>
+        <script type=""><![CDATA[
+
+var gaJsHost=((""https:""==document.location.protocol)?""https://ssl."":""http://www."");document.write(unescape(""%3Cscript src='""+gaJsHost+""google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E""));
+
+]]></script> <script type=""><![CDATA[
+
+var pageTracker=_gat._getTracker('UA-7453698-1');pageTracker._setAllowHash(false);pageTracker._setDomainName(""volusion.com"");pageTracker._setAllowLinker(true);pageTracker._setAllowAnchor(true);pageTracker._addIgnoredRef(""volusion"");pageTracker._trackPageview();pageTracker._trackPageLoadTime();
+
+]]></script></body>
+</html>

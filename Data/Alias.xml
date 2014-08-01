@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CatapultAliasFile conditions="">
-    <Map Name="Product_Code" Link="Testing/Inventory_Products_Code.htm" ResolvedId="1" />
+    <Map Name="ProductCode" Link="Admin/Inventory/Tooltips/Inventory_Products_Code.htm" ResolvedId="1" />
+    <Map Name="ProductName" Link="Admin/Inventory/Tooltips/Inventory_Products_Name.htm" ResolvedId="2" />
+    <Map Name="ProductPrice" Link="Admin/Inventory/Tooltips/Inventory_Products_Price.htm" ResolvedId="3" />
+    <Map Name="ProductWeight" Link="Admin/Inventory/Tooltips/Inventory_Products_Weight.htm" ResolvedId="4" />
 </CatapultAliasFile>
